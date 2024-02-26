@@ -1,0 +1,21 @@
+.header-link-list {
+  display: flex;
+  list-style: none;
+
+  justify-content: space-around;
+  background-color: black;
+}
+
+.header-link {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .header-link-list {
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+  }
+}
